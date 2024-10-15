@@ -1,0 +1,37 @@
+{% extends 'base.html' %}
+
+{% block title %}Contacto - GCA Technology{% endblock %}
+
+{% block content %}
+    <section class="contacto">
+        <div class="contact-container">
+            <h2>Contáctanos</h2>
+            <p>Queremos escucharte. Envíanos un mensaje y te responderemos a la brevedad.</p>
+            <form method="POST">
+                <div class="input-group">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="email">Correo Electrónico:</label>
+                    <input type="email" id="email" name="email" placeholder="Tu correo electrónico" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" placeholder="Escribe tu mensaje aquí..." required></textarea>
+                </div>
+
+                <button type="submit" class="submit-button">Enviar Mensaje</button>
+            </form>
+        </div>
+        
+        <div class="info-contacto">
+            <h3>Información de Contacto</h3>
+            <p><strong>Teléfono:</strong> +591 65123469</p>
+            <p><strong>Dirección:</strong> Calle VILLA ESPERANZA, Ciudad EL ALTO - BOLIVIA</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3837.033883240602!2d-68.1969821!3d-16.4939024!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x915edf003dec12e7%3A0x1b2669bac07dc20e!2sUPEA%20Juan%20Pablo%20II!5e0!3m2!1ses!2sbo!4v1710045305605!5m2!1ses!2sbo" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </section>
+{% endblock %}

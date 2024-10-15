@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block title %}Servicios - GCA Technology{% endblock %}
+
+{% block content %}
+    <section class="servicios">
+        <h2>Nuestros Servicios</h2>
+        <div class="servicio">
+            <img src="{{ url_for('static', filename='img/service1.png') }}" alt="Accesorio Electrónico 1" style="width: 300px; height: 200px;">
+            <h3>Venta de Accesorios Electrónicos</h3>
+            <p>Accesorios de alta calidad, diseñados para mejorar tu experiencia tecnológica.</p>
+        </div>
+        <div class="servicio">
+            <img src="{{ url_for('static', filename='img/service2.png') }}" alt="Accesorio Electrónico 2" style="width: 300px; height: 200px;">
+            <h3>Consultoría Tecnológica</h3>
+            <p>Asesoría personalizada para que elijas los productos tecnológicos adecuados.</p>
+        </div>
+    </section>
+{% endblock %}

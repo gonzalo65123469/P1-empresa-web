@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block title %}Quiénes Somos - GCA Technology{% endblock %}
+
+{% block content %}
+    <section class="historia">
+        <h2>Nuestra Historia</h2>
+        <p>GCA Technology fue fundada en 2024 con el objetivo de ofrecer los mejores accesorios electrónicos para el hogar y la oficina. Desde entonces, hemos crecido exponencialmente, alcanzando clientes a nivel mundial.</p>
+    </section>
+
+    <section class="mision-vision">
+        <h2>Misión y Visión</h2>
+        <p><strong>Misión:</strong> Proveer soluciones tecnológicas de alta calidad que mejoren la vida de nuestros clientes.</p>
+        <p><strong>Visión:</strong> Ser una empresa líder en innovación tecnológica para accesorios electrónicos.</p>
+    </section>
+
+    <section class="equipo">
+        <h2>Nuestro Equipo</h2>
+        <img src="{{ url_for('static', filename='img/team.png') }}" alt="Equipo de GCA Technology" style="width: 250px; height: 250px;">
+        <p>Contamos con un equipo altamente calificado y apasionado por la tecnología.</p>
+    </section>
+{% endblock %}

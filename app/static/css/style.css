@@ -1,0 +1,170 @@
+/* Estilos globales */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #eef5fc;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background-color:  #063d74; /* Color llamativo para el encabezado */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+nav ul li a {
+    color: rgb(10, 10, 10);
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #e9ff6f; /* Azul acero para enlaces */
+    border-radius: 50px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #0faf37; /* Azul más claro al pasar el mouse */
+}
+
+/* Main content */
+main {
+    padding: 40px;
+    background-color: rgba(243, 244, 245, 0.596);
+    margin: 20px auto;
+    border-radius: 20px;
+    max-width: 1200px; /* Ancho máximo */
+}
+
+/* Hero section */
+.hero {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #ffebcd; /* Color de fondo suave */
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    color: #0e020b;
+}
+
+.hero p {
+    font-size: 1.2em;
+}
+
+.cta-button {
+    background-color: #041f97; /* Botón verde brillante */
+    color: white;
+    padding: 15px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.cta-button:hover {
+    background-color: #22728b; /* Efecto hover del botón */
+}
+
+/* Testimonios */
+.testimonios {
+    padding: 20px;
+    background-color: #fff0f5; /* Color de fondo para testimonios */
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.testimonio {
+    margin: 10px 0;
+}
+
+/* Redes Sociales */
+.redes-sociales {
+    padding: 20px;
+    background-color: #e6e6fa; /* Color suave para redes sociales */
+    border-radius: 10px;
+    text-align: center;
+}
+
+.social-icon {
+    margin: 0 10px;
+    color: #071bcc;
+    text-decoration: none;
+}
+
+/* Sección de servicios */
+.servicios {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px 0;
+}
+
+.servicio {
+    text-align: center;
+    margin: 20px;
+}
+
+/* Página de contacto */
+.contact-container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #d19f8c; /* Color suave para el formulario */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.input-group input, 
+.input-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.submit-button {
+    background-color: #166599; /* Color de fondo para el botón de envío */
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: #0f6d7e; /* Efecto hover del botón de envío */
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color:  #063d74; /* Color del pie de página */
+    color: white;
+}

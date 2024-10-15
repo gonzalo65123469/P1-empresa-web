@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block title %}Noticias - GCA Technology{% endblock %}
+
+{% block content %}
+    <section class="noticias">
+        <h2>Últimas Noticias</h2>
+        <div class="noticia">
+            <img src="{{ url_for('static', filename='img/news1.png') }}" alt="Noticia 1" style="width: 400px; height: 250px;">
+            <h3>¿Qué sabemos del nuevo iPhone 16 y su innovadora IA?</h3>
+            <p>La inteligencia artificial de Apple, la Apple Intelligence, será capaz de comprender lo que se ve en la pantalla, podrá generar imágenes y transcribir conversaciones, entre otras cosas.</p>
+        </div>
+    </section>
+{% endblock %}
